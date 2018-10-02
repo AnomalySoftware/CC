@@ -1,0 +1,979 @@
+﻿Log file open, 09/16/18 12:36:07
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ColiseumChaos
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.282371
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamAudio
+LogPluginManager: Mounting plugin SteamController
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.202s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Epic Games/Fortnite/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.16-16.36.08:068][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.16-16.36.08:068][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.16-16.36.08:142][  0]LogHAL: Display: Platform has ~ 16 GB [17095811072 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.16-16.36.08:142][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.16-16.36.08:142][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.16-16.36.08:143][  0]LogInit: Computer: MSI
+[2018.09.16-16.36.08:143][  0]LogInit: User: ender
+[2018.09.16-16.36.08:143][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.16-16.36.08:143][  0]LogInit: High frequency timer resolution =2.742190 MHz
+[2018.09.16-16.36.08:144][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.16-16.36.08:144][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.16-16.36.08:144][  0]LogMemory: Process Physical Memory: 102.06 MB used, 102.06 MB peak
+[2018.09.16-16.36.08:144][  0]LogMemory: Process Virtual Memory: 101.59 MB used, 101.59 MB peak
+[2018.09.16-16.36.08:144][  0]LogMemory: Physical Memory: 7696.18 MB used,  8607.66 MB free, 16303.84 MB total
+[2018.09.16-16.36.08:144][  0]LogMemory: Virtual Memory: 4655.70 MB used,  8607.66 MB free, 134217728.00 MB total
+[2018.09.16-16.36.08:515][  0]LogInit: Using OS detected language (en-US).
+[2018.09.16-16.36.08:515][  0]LogInit: Using OS detected locale (en-US).
+[2018.09.16-16.36.08:517][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.16-16.36.08:955][  0]LogStreaming: Display: Took  0.440s to InitEngineTextLocalization.
+[2018.09.16-16.36.09:005][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.16-16.36.09:005][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.16-16.36.09:184][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.16-16.36.09:185][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.16-16.36.09:248][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2018.09.16-16.36.09:248][  0]LogD3D11RHI:       1979/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.16-16.36.09:257][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.09.16-16.36.09:257][  0]LogD3D11RHI:       128/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.16-16.36.09:259][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.16-16.36.09:259][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.16-16.36.09:259][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.16-16.36.09:277][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.16-16.36.09:277][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2018.09.16-16.36.09:277][  0]LogWindows: EnumDisplayDevices:
+[2018.09.16-16.36.09:277][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.09.16-16.36.09:278][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.16-16.36.09:278][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.16-16.36.09:278][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.09.16-16.36.09:278][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2018.09.16-16.36.09:278][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.09.16-16.36.09:278][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.09.16-16.36.09:278][  0]LogRHI: Texture pool is 1385 MB (70% of 1979 MB)
+[2018.09.16-16.36.09:315][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.16-16.36.09:332][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.16-16.36.09:333][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (../../../../../../Git/ColiseumChaos/Intermediate/Shaders/WorkingDirectory/12780/).
+[2018.09.16-16.36.09:333][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ender/AppData/Local/Temp/UnrealShaderWorkingDir/2C20967A44957DBA8246718A853F4A64/'.
+[2018.09.16-16.36.09:579][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.16-16.36.09:591][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.16-16.36.09:603][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.16-16.36.09:616][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.16-16.36.09:629][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.16-16.36.09:641][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.16-16.36.09:653][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.16-16.36.09:665][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.16-16.36.09:671][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.16-16.36.09:747][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.16-16.36.09:749][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.16-16.36.09:811][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.16-16.36.09:811][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.16-16.36.09:839][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.16-16.36.09:839][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.16-16.36.09:862][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.16-16.36.09:876][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.16-16.36.09:889][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.16-16.36.09:902][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.16-16.36.09:910][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.16-16.36.09:910][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.16-16.36.09:958][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.16-16.36.09:958][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.16-16.36.09:958][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.16-16.36.10:637][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.16-16.36.10:691][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/ender/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.16-16.36.10:692][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ender/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.16-16.36.10:692][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Git/ColiseumChaos/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.16-16.36.10:692][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.16-16.36.10:692][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Git/ColiseumChaos/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.16-16.36.10:692][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.16-16.36.10:705][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.16-16.36.10:717][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ender/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.16-16.36.10:717][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.16-16.36.10:717][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.16-16.36.10:736][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.16-16.36.10:737][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.16-16.36.10:737][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.16-16.36.10:807][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2018.09.16-16.36.11:101][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.16-16.36.11:235][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.16-16.36.11:238][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.16-16.36.11:238][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.16-16.36.11:238][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.16-16.36.11:238][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.16-16.36.11:257][  0]LogNetVersion: ColiseumChaos 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1884083424)
+[2018.09.16-16.36.11:770][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 2 prioritized culture(s) in 0.119424 seconds
+[2018.09.16-16.36.11:776][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.16-16.36.11:776][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.16-16.36.11:777][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.16-16.36.12:587][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.16-16.36.12:600][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.16-16.36.12:807][  0]LogSteamAudio: FSteamAudioModule Startup
+[2018.09.16-16.36.12:807][  0]LogSteamAudio: Attempting to load ../../../Engine/Binaries/ThirdParty/Phonon/Win64/tanrt64.dll
+[2018.09.16-16.36.12:847][  0]LogSteamAudio: Loaded ../../../Engine/Binaries/ThirdParty/Phonon/Win64/tanrt64.dll.
+[2018.09.16-16.36.12:848][  0]LogSteamAudio: Attempting to load ../../../Engine/Binaries/ThirdParty/Phonon/Win64/GPUUtilities.dll
+[2018.09.16-16.36.12:880][  0]LogSteamAudio: Loaded ../../../Engine/Binaries/ThirdParty/Phonon/Win64/GPUUtilities.dll.
+[2018.09.16-16.36.12:880][  0]LogSteamAudio: Attempting to load ../../../Engine/Binaries/ThirdParty/Phonon/Win64/phonon.dll
+[2018.09.16-16.36.12:993][  0]LogSteamAudio: Loaded ../../../Engine/Binaries/ThirdParty/Phonon/Win64/phonon.dll.
+[2018.09.16-16.36.13:045][  0]SourceControl: Source control is disabled
+[2018.09.16-16.36.14:002][  0]LogOnline: Display: STEAM: Loading Steam SDK 1.39
+[2018.09.16-16.36.14:045][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.16-16.36.14:141][  0]LogOcInput: OculusInput pre-init called
+[2018.09.16-16.36.14:218][  0]LogEngine: Initializing Engine...
+[2018.09.16-16.36.14:219][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.16-16.36.14:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.16-16.36.14:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.16-16.36.14:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.16-16.36.14:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.16-16.36.14:433][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.16-16.36.14:442][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.16-16.36.14:470][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.16-16.36.14:541][  0]LogInit: FAudioDevice initialized.
+[2018.09.16-16.36.14:541][  0]LogNetVersion: Set ProjectVersion to 0.0.1. Version Checksum will be recalculated on next use.
+[2018.09.16-16.36.14:616][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/ender/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.16-16.36.14:622][  0]LogInit: Texture streaming: Enabled
+[2018.09.16-16.36.14:642][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.16-16.36.14:674][  0]LogInit: Transaction tracking system initialized
+[2018.09.16-16.36.14:693][  0]BlueprintLog: New page: Editor Load
+[2018.09.16-16.36.14:770][  0]LocalizationService: Localization service is disabled
+[2018.09.16-16.36.15:036][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.16-16.36.15:036][  0]LogCook: Display: Mobile HDR setting 0
+[2018.09.16-16.36.15:036][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.16-16.36.15:036][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.16-16.36.15:036][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.16-16.36.15:036][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.16-16.36.15:036][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.16-16.36.15:251][  0]LogFileCache: Scanning file cache for directory 'D:/Git/ColiseumChaos/Content/' took 0.02s
+[2018.09.16-16.36.15:251][  0]Cmd: MAP LOAD FILE="../../../../../../Git/ColiseumChaos/Content/Maps/Logo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.16-16.36.15:277][  0]LightingResults: New page: Lighting Build
+[2018.09.16-16.36.15:281][  0]MapCheck: New page: Map Check
+[2018.09.16-16.36.15:281][  0]LightingResults: New page: Lighting Build
+[2018.09.16-16.36.17:829][  0]LogAIModule: Creating AISystem for world Logo
+[2018.09.16-16.36.17:862][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.16-16.36.17:890][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.16-16.36.17:937][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.833ms to complete.
+[2018.09.16-16.36.17:938][  0]LogFileHelpers: Loading map 'Logo' took 2.686
+[2018.09.16-16.36.18:438][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.36.18:522][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.36.18:531][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.36.18:539][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.36.18:548][  0]LogCollectionManager: Loaded 0 collections in 0.000931 seconds
+[2018.09.16-16.36.18:676][  0]LogFileCache: Scanning file cache for directory 'D:/Git/ColiseumChaos/Saved/Collections/' took 0.01s
+[2018.09.16-16.36.18:676][  0]LogFileCache: Scanning file cache for directory 'D:/Git/ColiseumChaos/Content/Developers/ender/Collections/' took 0.01s
+[2018.09.16-16.36.18:676][  0]LogFileCache: Scanning file cache for directory 'D:/Git/ColiseumChaos/Content/Collections/' took 0.01s
+[2018.09.16-16.36.18:676][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.16-16.36.18:687][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2588 classes and 613 folders.
+[2018.09.16-16.36.18:728][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.16-16.36.20:316][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.09.16-16.36.20:396][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.09.16-16.36.20:739][  0]LogSlate: Took 0.000509 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.16-16.36.20:748][  0]LogSlate: Took 0.000715 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.16-16.36.20:821][  0]LogSlate: Took 0.027617 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.16-16.36.21:142][  0]LogRenderer: Reallocating scene render targets to support 856x468 Format 10 NumSamples 1 (Frame:1).
+[2018.09.16-16.36.21:423][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.09.16-16.36.21:423][  0]LogLoad: (Engine Initialization) Total time: 15.49 seconds
+[2018.09.16-16.36.21:423][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.16-16.36.21:499][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.36.21:525][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.16-16.36.22:129][  0]LogSteamController: SteamController is not available
+[2018.09.16-16.36.22:184][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.09.16-16.36.22:215][  0]LogSlate: Took 0.015421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.16-16.36.22:426][  2]LogAssetRegistry: Asset discovery search completed in 11.6407 seconds
+[2018.09.16-16.36.22:431][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000013 seconds (found 0 objects)
+[2018.09.16-16.36.22:431][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000147 seconds (updated 0 objects)
+[2018.09.16-16.36.33:988][678]LogSlate: Took 0.000424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.16-16.36.36:232][678]LogAIModule: Creating AISystem for world Sand_LvL
+[2018.09.16-16.36.36:351][678]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Sand_LvL.Sand_LvL
+[2018.09.16-16.36.36:408][678]Cmd: MAP LOAD FILE="../../../../../../Git/ColiseumChaos/Content/Maps/Sand_LvL.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.16-16.36.36:408][678]LightingResults: New page: Lighting Build
+[2018.09.16-16.36.36:409][678]LoadErrors: New page: Loading map: Sand_LvL.umap
+[2018.09.16-16.36.36:409][678]MapCheck: New page: Map Check
+[2018.09.16-16.36.36:409][678]LightingResults: New page: Lighting Build
+[2018.09.16-16.36.36:492][678]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.16-16.36.36:565][678]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.16-16.36.36:626][678]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.144ms to complete.
+[2018.09.16-16.36.36:627][678]LogFileHelpers: Loading map 'Sand_LvL' took 0.220
+[2018.09.16-16.36.51:134][528]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/Gollem/GolemBP.GolemBP
+[2018.09.16-16.36.51:850][528]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2018.09.16-16.36.53:532][528]LogSlate: Took 0.020786 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.16-16.36.54:572][529]LogSlate: Took 0.026490 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.16-16.37.37:288][856]LogEditorFactories: Performing atomic reimport of [D:/Documents/Coliseum Chaos/assets/sprites/new/enemies/Golem/Walking/Gollem3.png]
+[2018.09.16-16.37.37:291][856]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Documents/Coliseum Chaos/assets/sprites/new/enemies/Golem/Walking/Gollem3.png)
+[2018.09.16-16.37.37:321][856]LogTexture: Display: Building textures: Gollem3 (BGRA8, 50X48)
+[2018.09.16-16.37.37:372][856]LogEditorFactories: -- imported successfully
+[2018.09.16-16.37.37:420][856]LogEditorFactories: Performing atomic reimport of [D:/Documents/Coliseum Chaos/assets/sprites/new/enemies/Golem/Walking/Gollem1.png]
+[2018.09.16-16.37.37:424][856]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Documents/Coliseum Chaos/assets/sprites/new/enemies/Golem/Walking/Gollem1.png)
+[2018.09.16-16.37.37:434][856]LogTexture: Display: Building textures: Gollem1 (BGRA8, 50X48)
+[2018.09.16-16.37.37:449][856]LogEditorFactories: -- imported successfully
+[2018.09.16-16.37.37:475][856]LogEditorFactories: Performing atomic reimport of [D:/Documents/Coliseum Chaos/assets/sprites/new/enemies/Golem/Walking/Gollem2.png]
+[2018.09.16-16.37.37:479][856]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Documents/Coliseum Chaos/assets/sprites/new/enemies/Golem/Walking/Gollem2.png)
+[2018.09.16-16.37.37:490][856]LogTexture: Display: Building textures: Gollem2 (BGRA8, 50X48)
+[2018.09.16-16.37.37:504][856]LogEditorFactories: -- imported successfully
+[2018.09.16-16.37.41:076][950]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.16-16.37.41:110][950]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.37.41:110][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-16.37.41:156][950]PIE: New page: PIE session: Sand_LvL (Sep 16, 2018, 8:37:41 AM)
+[2018.09.16-16.37.41:157][950]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sand_LvL
+[2018.09.16-16.37.41:212][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054678s)
+[2018.09.16-16.37.41:215][950]LogAIModule: Creating AISystem for world Sand_LvL
+[2018.09.16-16.37.41:215][950]LogPlayLevel: PIE: World Init took: (0.002296s)
+[2018.09.16-16.37.41:215][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sand_LvL.Sand_LvL to /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL (0.058000s)
+[2018.09.16-16.37.41:406][950]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.16-16.37.41:531][950]LogInit: FAudioDevice initialized.
+[2018.09.16-16.37.41:560][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.37.41:701][950]LogLoad: Game class is 'CCGamemode_C'
+[2018.09.16-16.37.41:736][950]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL up for play (max tick rate 60) at 2018.09.16-12.37.41
+[2018.09.16-16.37.41:855][950]LogWorld: Bringing up level for play took: 0.132543
+[2018.09.16-16.37.41:900][950]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.09.16-16.37.41:991][950]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Sand_LvL 0.284
+[2018.09.16-16.37.41:991][950]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.37.42:207][950]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2018.09.16-16.37.42:539][965]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.37.42:551][965]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.37.42:580][965]LogSlate: Window 'Coliseum Chaos Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.16-16.37.42:614][965]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-16.37.42:615][965]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.37.42:675][966]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.09.16-16.37.43:289][  2]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Enemy/Gollem/Gollem1.Gollem1
+[2018.09.16-16.37.43:334][  2]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.09.16-16.37.45:233][ 96]LogSlate: Window 'Gollem1*' being destroyed
+[2018.09.16-16.37.45:237][ 96]LogSlate: Window 'Gollem1*' being destroyed
+[2018.09.16-16.37.46:223][148]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.16-16.37.46:254][148]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.37.46:254][148]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-16.37.46:254][148]PIE: New page: PIE session: Sand_LvL (Sep 16, 2018, 8:37:46 AM)
+[2018.09.16-16.37.46:255][148]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sand_LvL
+[2018.09.16-16.37.46:264][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008907s)
+[2018.09.16-16.37.46:264][148]LogAIModule: Creating AISystem for world Sand_LvL
+[2018.09.16-16.37.46:264][148]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2018.09.16-16.37.46:264][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sand_LvL.Sand_LvL to /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL (0.009739s)
+[2018.09.16-16.37.46:315][148]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.16-16.37.46:382][148]LogInit: FAudioDevice initialized.
+[2018.09.16-16.37.46:389][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.37.46:468][148]LogLoad: Game class is 'CCGamemode_C'
+[2018.09.16-16.37.46:477][148]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL up for play (max tick rate 60) at 2018.09.16-12.37.46
+[2018.09.16-16.37.46:488][148]LogWorld: Bringing up level for play took: 0.018453
+[2018.09.16-16.37.46:509][148]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Sand_LvL 0.802
+[2018.09.16-16.37.46:509][148]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.37.50:974][412]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.37.51:588][446]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.37.51:688][452]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.37.52:188][482]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.37.53:605][567]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.37.53:888][584]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.37.54:839][641]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.37.57:318][785]LogSlate: Took 0.071606 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.09.16-16.37.59:189][898]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.38.03:335][146]LogBlueprintUserMessages: [ShopGUI_C_1] 2
+[2018.09.16-16.38.11:668][646]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.38.16:670][946]LogBlueprintUserMessages: [ShopGUI_C_2] 1
+[2018.09.16-16.38.17:953][ 23]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.19:220][ 99]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.22:650][303]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.23:783][371]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.25:318][463]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.25:318][463]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.26:534][536]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.27:567][598]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.38.31:621][841]LogBlueprintUserMessages: [ShopGUI_C_3] 2
+[2018.09.16-16.38.32:288][881]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.32:688][905]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.32:773][910]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.35:388][ 67]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.37:939][220]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.40:989][403]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.41:056][407]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.41:272][420]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.42:022][465]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.42:073][468]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.42:540][496]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.38.59:868][533]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.38.59:868][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.38.59:900][533]LogSlate: Window 'Coliseum Chaos Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.16-16.38.59:938][533]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-16.38.59:938][533]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.39.00:001][534]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.09.16-16.40.28:835][287]LogSlate: Window 'Save Content' being destroyed
+[2018.09.16-16.40.53:477][911]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Epic Games/Fortnite/UE_4.20/Engine/Source/Runtime/Engine/Classes/Engine/Texture2D.h'
+[2018.09.16-16.47.11:492][125]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (Forest_C)
+[2018.09.16-16.47.11:963][125]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.47.12:591][154]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Forest_C)
+[2018.09.16-16.47.52:531][501]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Sand_LvL' took 0.035
+[2018.09.16-16.47.52:533][501]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/Gollem/Gollem1] ([1] browsable assets)...
+[2018.09.16-16.47.52:536][501]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Enemy/Gollem/Gollem1.Gollem1]
+[2018.09.16-16.47.52:536][501]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Gollem/Gollem1]
+[2018.09.16-16.47.52:536][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Gollem/Gollem1" FILE="../../../../../../Git/ColiseumChaos/Saved/Autosaves/Game/Enemy/Gollem/Gollem1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.09.16-16.47.52:944][501]LogSavePackage: Moving '../../../../../../Git/ColiseumChaos/Saved/Gollem1_Auto1C280BD3041A5F1B64B8E7DB4C252C701.tmp' to '../../../../../../Git/ColiseumChaos/Saved/Autosaves/Game/Enemy/Gollem/Gollem1_Auto1.uasset'
+[2018.09.16-16.47.52:955][501]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/Gollem/Gollem2] ([1] browsable assets)...
+[2018.09.16-16.47.52:956][501]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Enemy/Gollem/Gollem2.Gollem2]
+[2018.09.16-16.47.52:956][501]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Gollem/Gollem2]
+[2018.09.16-16.47.52:956][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Gollem/Gollem2" FILE="../../../../../../Git/ColiseumChaos/Saved/Autosaves/Game/Enemy/Gollem/Gollem2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.09.16-16.47.52:996][501]LogSavePackage: Moving '../../../../../../Git/ColiseumChaos/Saved/Gollem2_Auto1338BD96E4DFFA7B72B7829A9EE685727.tmp' to '../../../../../../Git/ColiseumChaos/Saved/Autosaves/Game/Enemy/Gollem/Gollem2_Auto1.uasset'
+[2018.09.16-16.47.52:997][501]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/Gollem/Gollem3] ([1] browsable assets)...
+[2018.09.16-16.47.52:998][501]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Enemy/Gollem/Gollem3.Gollem3]
+[2018.09.16-16.47.52:998][501]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Gollem/Gollem3]
+[2018.09.16-16.47.52:999][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Gollem/Gollem3" FILE="../../../../../../Git/ColiseumChaos/Saved/Autosaves/Game/Enemy/Gollem/Gollem3_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.09.16-16.47.53:049][501]LogSavePackage: Moving '../../../../../../Git/ColiseumChaos/Saved/Gollem3_Auto118F905E64D52A1ED34B3B48DAAA81092.tmp' to '../../../../../../Git/ColiseumChaos/Saved/Autosaves/Game/Enemy/Gollem/Gollem3_Auto1.uasset'
+[2018.09.16-16.47.53:049][501]LogFileHelpers: Auto-saving content packages took 0.517
+[2018.09.16-16.48.56:309][816]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.48.56:365][816]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Documents\Coliseum Chaos\assets\sprites\tileset\woods\Tree.png)
+[2018.09.16-16.48.56:370][816]LogTexture: Display: Building textures: Tree (BGRA8, 25X50)
+[2018.09.16-16.49.00:284][948]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.16-16.49.00:293][948]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.49.00:315][948]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.49.05:074][115]LogEditorFactories: Performing atomic reimport of [D:/Documents/Coliseum Chaos/assets/sprites/tileset/woods/Tree.png]
+[2018.09.16-16.49.05:074][115]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Documents/Coliseum Chaos/assets/sprites/tileset/woods/Tree.png)
+[2018.09.16-16.49.05:078][115]LogTexture: Display: Building textures: tree (BGRA8, 25X50)
+[2018.09.16-16.49.05:083][115]LogEditorFactories: -- imported successfully
+[2018.09.16-16.49.06:838][182]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.16-16.49.06:869][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.49.06:869][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-16.49.06:870][182]PIE: New page: PIE session: Sand_LvL (Sep 16, 2018, 8:49:06 AM)
+[2018.09.16-16.49.06:870][182]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sand_LvL
+[2018.09.16-16.49.06:879][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009185s)
+[2018.09.16-16.49.06:880][182]LogAIModule: Creating AISystem for world Sand_LvL
+[2018.09.16-16.49.06:880][182]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2018.09.16-16.49.06:880][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sand_LvL.Sand_LvL to /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL (0.010113s)
+[2018.09.16-16.49.06:927][182]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.16-16.49.06:996][182]LogInit: FAudioDevice initialized.
+[2018.09.16-16.49.07:003][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.49.07:085][182]LogLoad: Game class is 'CCGamemode_C'
+[2018.09.16-16.49.07:096][182]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL up for play (max tick rate 60) at 2018.09.16-12.49.07
+[2018.09.16-16.49.07:109][182]LogWorld: Bringing up level for play took: 0.023682
+[2018.09.16-16.49.07:129][182]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Sand_LvL -0.578
+[2018.09.16-16.49.07:129][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.49.09:766][337]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.49.09:767][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.49.09:797][337]LogSlate: Window 'Coliseum Chaos Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.16-16.49.09:842][337]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-16.49.09:842][337]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.49.09:900][338]Cmd: SELECT NONE
+[2018.09.16-16.49.09:901][338]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.09.16-16.49.10:827][392]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.16-16.49.11:624][435]LogEditorViewport: Clicking on Actor (context menu): Tree_Obj_C (Tree_Obj6)
+[2018.09.16-16.49.11:671][435]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.49.11:755][436]LogEditorViewport: Clicking on Actor (context menu): Tree_Obj_C (Tree_Obj6)
+[2018.09.16-16.49.11:780][436]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.49.11:871][441]LogEditorViewport: Clicking on Actor (context menu): Tree_Obj_C (Tree_Obj6)
+[2018.09.16-16.49.11:893][441]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.49.14:586][589]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.16-16.49.18:520][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.49.18:569][821]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.16-16.49.18:600][821]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.49.18:600][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-16.49.18:600][821]PIE: New page: PIE session: Sand_LvL (Sep 16, 2018, 8:49:18 AM)
+[2018.09.16-16.49.18:601][821]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sand_LvL
+[2018.09.16-16.49.18:610][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009537s)
+[2018.09.16-16.49.18:611][821]LogAIModule: Creating AISystem for world Sand_LvL
+[2018.09.16-16.49.18:611][821]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2018.09.16-16.49.18:611][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sand_LvL.Sand_LvL to /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL (0.010595s)
+[2018.09.16-16.49.18:660][821]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.16-16.49.18:728][821]LogInit: FAudioDevice initialized.
+[2018.09.16-16.49.18:734][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.49.18:814][821]LogLoad: Game class is 'CCGamemode_C'
+[2018.09.16-16.49.18:824][821]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL up for play (max tick rate 60) at 2018.09.16-12.49.18
+[2018.09.16-16.49.18:836][821]LogWorld: Bringing up level for play took: 0.020332
+[2018.09.16-16.49.18:856][821]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Sand_LvL 1.148
+[2018.09.16-16.49.18:856][821]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.49.25:045][188]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.49.29:127][433]LogBlueprintUserMessages: [ShopGUI_C_1] 2
+[2018.09.16-16.49.37:827][955]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.49.42:778][252]LogBlueprintUserMessages: [ShopGUI_C_2] 1
+[2018.09.16-16.49.49:864][677]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.49.49:864][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.49.49:895][677]LogSlate: Window 'Coliseum Chaos Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.16-16.49.49:941][677]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-16.49.49:941][677]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.49.49:996][678]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.09.16-16.49.52:252][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.49.52:410][822]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tilesets/Tree_Obj.Tree_Obj
+[2018.09.16-16.50.03:256][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.50.04:106][494]LogEditorViewport: Clicking on Actor (LMB): Tree_Obj_C (Tree_Obj7)
+[2018.09.16-16.50.08:847][772]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.50.08:947][778]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.16-16.50.08:980][778]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.50.08:981][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-16.50.08:981][778]PIE: New page: PIE session: Sand_LvL (Sep 16, 2018, 8:50:08 AM)
+[2018.09.16-16.50.08:981][778]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sand_LvL
+[2018.09.16-16.50.08:990][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008757s)
+[2018.09.16-16.50.08:990][778]LogAIModule: Creating AISystem for world Sand_LvL
+[2018.09.16-16.50.08:991][778]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2018.09.16-16.50.08:991][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sand_LvL.Sand_LvL to /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL (0.009591s)
+[2018.09.16-16.50.09:047][778]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.16-16.50.09:118][778]LogInit: FAudioDevice initialized.
+[2018.09.16-16.50.09:124][778]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.50.09:201][778]LogLoad: Game class is 'CCGamemode_C'
+[2018.09.16-16.50.09:210][778]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL up for play (max tick rate 60) at 2018.09.16-12.50.09
+[2018.09.16-16.50.09:223][778]LogWorld: Bringing up level for play took: 0.020587
+[2018.09.16-16.50.09:242][778]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Sand_LvL -0.465
+[2018.09.16-16.50.09:243][778]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.50.14:743][105]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.50.18:828][350]LogBlueprintUserMessages: [ShopGUI_C_1] 2
+[2018.09.16-16.50.24:856][710]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.50.27:005][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.50.31:974][137]LogBlueprintUserMessages: [ShopGUI_C_2] 1
+[2018.09.16-16.50.33:025][200]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.50.33:025][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.50.33:055][200]LogSlate: Window 'Coliseum Chaos Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.16-16.50.33:105][200]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-16.50.33:105][200]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.50.33:159][201]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.09.16-16.50.36:563][404]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (Forest_C)
+[2018.09.16-16.50.36:759][404]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.50.37:033][418]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (Forest_C)
+[2018.09.16-16.50.37:059][418]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.50.37:734][459]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Forest_C)
+[2018.09.16-16.50.38:377][491]LogEditorViewport: Clicking on Actor (LMB): Tree_Obj_C (Tree_Obj7)
+[2018.09.16-16.50.41:354][663]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.50.42:207][703]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.50.42:211][703]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL
+[2018.09.16-16.50.54:993][421]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.16-16.50.55:025][421]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.50.55:025][421]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.16-16.50.55:065][421]LogPlayLevel: [PlayLevel] Compiling Sand_LvL before play...
+[2018.09.16-16.50.55:417][421]LogPlayLevel: PlayLevel: Blueprint regeneration took 392 ms (1 blueprints)
+[2018.09.16-16.50.55:417][421]PIE: New page: PIE session: Sand_LvL (Sep 16, 2018, 8:50:55 AM)
+[2018.09.16-16.50.55:417][421]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sand_LvL
+[2018.09.16-16.50.55:427][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009291s)
+[2018.09.16-16.50.55:427][421]LogAIModule: Creating AISystem for world Sand_LvL
+[2018.09.16-16.50.55:428][421]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2018.09.16-16.50.55:428][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sand_LvL.Sand_LvL to /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL (0.010323s)
+[2018.09.16-16.50.55:483][421]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.16-16.50.55:548][421]LogInit: FAudioDevice initialized.
+[2018.09.16-16.50.55:554][421]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.50.55:623][421]LogLoad: Game class is 'CCGamemode_C'
+[2018.09.16-16.50.55:631][421]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL up for play (max tick rate 60) at 2018.09.16-12.50.55
+[2018.09.16-16.50.55:642][421]LogWorld: Bringing up level for play took: 0.018017
+[2018.09.16-16.50.55:658][421]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Sand_LvL -0.048
+[2018.09.16-16.50.55:659][421]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.50.58:353][563]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.50.59:836][652]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.01:570][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.51.05:621][999]LogBlueprintUserMessages: [ShopGUI_C_1] 2
+[2018.09.16-16.51.06:604][ 58]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.09:072][206]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.10:105][268]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.10:440][288]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.51.10:441][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.51.10:474][288]LogSlate: Window 'Coliseum Chaos Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.16-16.51.10:540][288]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-16.51.10:540][288]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.51.10:882][289]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.09.16-16.51.16:032][597]LogEditorViewport: Clicking on Actor (LMB): Tree_Obj_C (Tree_Obj3)
+[2018.09.16-16.51.16:375][615]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Forest_C)
+[2018.09.16-16.51.16:980][645]Cmd: DELETE
+[2018.09.16-16.51.16:980][645]Cmd: ACTOR DELETE
+[2018.09.16-16.51.17:026][645]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.51.18:183][645]LogSlate: Window 'Message' being destroyed
+[2018.09.16-16.51.18:257][645]LogEditorActor: Deleted 0 Actors (1.276 secs)
+[2018.09.16-16.51.18:753][675]LogEditorViewport: Clicking on Actor (LMB): Tree_Obj_C (Tree_Obj3)
+[2018.09.16-16.51.20:032][749]Cmd: DELETE
+[2018.09.16-16.51.20:032][749]Cmd: ACTOR DELETE
+[2018.09.16-16.51.20:037][749]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.51.24:581][749]LogSlate: Window 'Message' being destroyed
+[2018.09.16-16.51.24:624][749]LogEditorActor: Deleted Actor: Tree_Obj_C
+[2018.09.16-16.51.24:651][749]LogEditorActor: Deleted 1 Actors (4.618 secs)
+[2018.09.16-16.51.25:544][803]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Forest_C)
+[2018.09.16-16.51.25:911][819]Cmd: DELETE
+[2018.09.16-16.51.25:911][819]Cmd: ACTOR DELETE
+[2018.09.16-16.51.25:919][819]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.51.26:940][819]LogSlate: Window 'Message' being destroyed
+[2018.09.16-16.51.26:975][819]LogEditorActor: Deleted 0 Actors (1.063 secs)
+[2018.09.16-16.51.27:402][845]LogEditorViewport: Clicking on Actor (LMB): Tree_Obj_C (Tree_Obj8)
+[2018.09.16-16.51.27:813][867]Cmd: DELETE
+[2018.09.16-16.51.27:813][867]Cmd: ACTOR DELETE
+[2018.09.16-16.51.27:814][867]LogEditorActor: Deleted Actor: Tree_Obj_C
+[2018.09.16-16.51.27:843][867]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2018.09.16-16.51.28:427][902]LogEditorViewport: Clicking on Actor (LMB): Tree_Obj_C (Tree_Obj5)
+[2018.09.16-16.51.28:583][909]Cmd: DELETE
+[2018.09.16-16.51.28:583][909]Cmd: ACTOR DELETE
+[2018.09.16-16.51.28:588][909]LogEditorActor: Deleted Actor: Tree_Obj_C
+[2018.09.16-16.51.28:619][909]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2018.09.16-16.51.29:120][939]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Forest_C)
+[2018.09.16-16.51.29:816][975]LogEditorViewport: Clicking on Actor (LMB): Tree_Obj_C (Tree_Obj6)
+[2018.09.16-16.51.30:109][990]Cmd: DELETE
+[2018.09.16-16.51.30:109][990]Cmd: ACTOR DELETE
+[2018.09.16-16.51.30:113][990]LogEditorActor: Deleted Actor: Tree_Obj_C
+[2018.09.16-16.51.30:147][990]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2018.09.16-16.51.30:566][ 15]LogEditorViewport: Clicking on Actor (LMB): Tree_Obj_C (Tree_Obj4)
+[2018.09.16-16.51.30:839][ 29]Cmd: DELETE
+[2018.09.16-16.51.30:839][ 29]Cmd: ACTOR DELETE
+[2018.09.16-16.51.30:843][ 29]LogEditorActor: Deleted Actor: Tree_Obj_C
+[2018.09.16-16.51.30:880][ 29]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2018.09.16-16.51.31:448][ 63]LogEditorViewport: Clicking on Actor (LMB): Tree_Obj_C (Tree_Obj7)
+[2018.09.16-16.51.32:035][ 96]Cmd: EDIT COPY
+[2018.09.16-16.51.32:204][106]Cmd: EDIT PASTE
+[2018.09.16-16.51.40:672][606]Cmd: DUPLICATE
+[2018.09.16-16.51.40:672][606]Cmd: ACTOR DUPLICATE
+[2018.09.16-16.51.43:823][790]Cmd: DUPLICATE
+[2018.09.16-16.51.43:823][790]Cmd: ACTOR DUPLICATE
+[2018.09.16-16.51.46:911][971]Cmd: DUPLICATE
+[2018.09.16-16.51.46:911][971]Cmd: ACTOR DUPLICATE
+[2018.09.16-16.51.51:214][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.51.51:544][244]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.16-16.51.51:577][244]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.51.51:577][244]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-16.51.51:577][244]PIE: New page: PIE session: Sand_LvL (Sep 16, 2018, 8:51:51 AM)
+[2018.09.16-16.51.51:577][244]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sand_LvL
+[2018.09.16-16.51.51:587][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009093s)
+[2018.09.16-16.51.51:587][244]LogAIModule: Creating AISystem for world Sand_LvL
+[2018.09.16-16.51.51:588][244]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2018.09.16-16.51.51:588][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sand_LvL.Sand_LvL to /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL (0.010073s)
+[2018.09.16-16.51.51:646][244]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.16-16.51.51:712][244]LogInit: FAudioDevice initialized.
+[2018.09.16-16.51.51:719][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.51.51:800][244]LogLoad: Game class is 'CCGamemode_C'
+[2018.09.16-16.51.51:809][244]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL up for play (max tick rate 60) at 2018.09.16-12.51.51
+[2018.09.16-16.51.51:821][244]LogWorld: Bringing up level for play took: 0.019587
+[2018.09.16-16.51.51:841][244]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Sand_LvL 0.134
+[2018.09.16-16.51.51:841][244]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.51.54:089][376]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.54:205][383]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.55:005][431]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.55:222][444]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.55:288][448]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.55:472][459]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.56:125][498]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.56:139][499]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.56:323][510]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.56:359][512]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.56:506][521]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.56:573][525]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.57:090][556]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.57:306][569]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.51.58:488][640]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.52.00:090][736]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.52.00:091][736]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.52.00:120][736]LogSlate: Window 'Coliseum Chaos Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.16-16.52.00:193][736]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-16.52.00:193][736]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.52.00:256][737]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.09.16-16.52.17:406][765]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.52.17:472][769]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.16-16.52.17:504][769]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.52.17:504][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-16.52.17:505][769]PIE: New page: PIE session: Sand_LvL (Sep 16, 2018, 8:52:17 AM)
+[2018.09.16-16.52.17:505][769]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sand_LvL
+[2018.09.16-16.52.17:514][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009569s)
+[2018.09.16-16.52.17:514][769]LogAIModule: Creating AISystem for world Sand_LvL
+[2018.09.16-16.52.17:514][769]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2018.09.16-16.52.17:514][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sand_LvL.Sand_LvL to /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL (0.010316s)
+[2018.09.16-16.52.17:563][769]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.16-16.52.17:631][769]LogInit: FAudioDevice initialized.
+[2018.09.16-16.52.17:638][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.52.17:714][769]LogLoad: Game class is 'CCGamemode_C'
+[2018.09.16-16.52.17:723][769]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL up for play (max tick rate 60) at 2018.09.16-12.52.17
+[2018.09.16-16.52.17:734][769]LogWorld: Bringing up level for play took: 0.018157
+[2018.09.16-16.52.17:751][769]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Sand_LvL 0.044
+[2018.09.16-16.52.17:751][769]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.52.18:579][813]LogRenderer: Reallocating scene render targets to support 1536x800 Format 10 NumSamples 1 (Frame:46).
+[2018.09.16-16.52.22:417][ 37]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.52.22:578][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.52.23:474][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.52.23:669][ 74]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.52.23:669][ 74]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.52.23:686][ 75]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.52.23:686][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.52.23:718][ 75]LogSlate: Window 'Coliseum Chaos Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.16-16.52.23:760][ 75]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-16.52.23:761][ 75]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.52.23:828][ 76]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.09.16-16.53.12:227][368]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (Forest_C)
+[2018.09.16-16.53.12:331][368]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.53.12:699][388]LogEditorViewport: Clicking on Actor (context menu): Tree_Obj_C (Tree_Obj7)
+[2018.09.16-16.53.12:743][388]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.53.14:932][514]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.16-16.53.17:293][653]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (Forest_C)
+[2018.09.16-16.53.17:395][653]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.53.18:102][693]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (Forest_C)
+[2018.09.16-16.53.18:130][693]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.53.18:867][732]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.16-16.53.19:771][783]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (Forest_C)
+[2018.09.16-16.53.19:876][783]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.54.12:645][154]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.54.18:192][277]LogEditorFactories: Performing atomic reimport of [D:/Documents/Coliseum Chaos/assets/sprites/tileset/woods/ForestTileset.png]
+[2018.09.16-16.54.18:193][277]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Documents/Coliseum Chaos/assets/sprites/tileset/woods/ForestTileset.png)
+[2018.09.16-16.54.18:200][277]LogTexture: Display: Building textures: ForestTileset (AutoDXT, 160X256)
+[2018.09.16-16.54.18:272][277]LogEditorFactories: -- imported successfully
+[2018.09.16-16.54.19:197][280]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Forest_C)
+[2018.09.16-16.54.19:758][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.54.20:091][332]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.16-16.54.20:127][332]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.54.20:128][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.16-16.54.20:128][332]PIE: New page: PIE session: Sand_LvL (Sep 16, 2018, 8:54:20 AM)
+[2018.09.16-16.54.20:128][332]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sand_LvL
+[2018.09.16-16.54.20:137][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008736s)
+[2018.09.16-16.54.20:137][332]LogAIModule: Creating AISystem for world Sand_LvL
+[2018.09.16-16.54.20:138][332]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2018.09.16-16.54.20:138][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sand_LvL.Sand_LvL to /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL (0.009566s)
+[2018.09.16-16.54.20:191][332]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.16-16.54.20:261][332]LogInit: FAudioDevice initialized.
+[2018.09.16-16.54.20:268][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.54.20:348][332]LogLoad: Game class is 'CCGamemode_C'
+[2018.09.16-16.54.20:359][332]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL up for play (max tick rate 60) at 2018.09.16-12.54.20
+[2018.09.16-16.54.20:371][332]LogWorld: Bringing up level for play took: 0.018181
+[2018.09.16-16.54.20:390][332]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Sand_LvL 0.683
+[2018.09.16-16.54.20:390][332]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.54.22:471][453]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.54.22:471][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.54.22:503][453]LogSlate: Window 'Coliseum Chaos Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.16-16.54.22:553][453]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-16.54.22:553][453]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.54.22:616][454]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.09.16-16.54.37:469][582]LogEditorFactories: Performing atomic reimport of [D:/Documents/Coliseum Chaos/assets/sprites/tileset/woods/ForestTileset.png]
+[2018.09.16-16.54.37:470][582]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Documents/Coliseum Chaos/assets/sprites/tileset/woods/ForestTileset.png)
+[2018.09.16-16.54.37:475][582]LogTexture: Display: Building textures: ForestTileset (AutoDXT, 160X256)
+[2018.09.16-16.54.37:522][582]LogEditorFactories: -- imported successfully
+[2018.09.16-16.54.43:223][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.54.44:568][664]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (Forest_C)
+[2018.09.16-16.54.44:667][664]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.54.59:321][754]LogEditorFactories: Performing atomic reimport of [D:/Documents/Coliseum Chaos/assets/sprites/tileset/woods/ForestTileset.png]
+[2018.09.16-16.54.59:322][754]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Documents/Coliseum Chaos/assets/sprites/tileset/woods/ForestTileset.png)
+[2018.09.16-16.54.59:327][754]LogTexture: Display: Building textures: ForestTileset (AutoDXT, 160X256)
+[2018.09.16-16.54.59:375][754]LogEditorFactories: -- imported successfully
+[2018.09.16-16.54.59:780][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.55.00:158][766]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Forest_C)
+[2018.09.16-16.55.00:616][791]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (Forest_C)
+[2018.09.16-16.55.00:641][791]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.55.00:652][791]LogEditorViewport: Clicking on Actor (context menu): PaperFlipbookActor (Crowd3)
+[2018.09.16-16.55.00:701][791]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.55.01:284][824]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.16-16.55.01:365][824]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.55.01:639][838]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.16-16.55.02:557][887]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (Forest_C)
+[2018.09.16-16.55.02:656][887]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.55.13:481][987]LogEditorFactories: Performing atomic reimport of [D:/Documents/Coliseum Chaos/assets/sprites/tileset/woods/ForestTileset.png]
+[2018.09.16-16.55.13:483][987]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Documents/Coliseum Chaos/assets/sprites/tileset/woods/ForestTileset.png)
+[2018.09.16-16.55.13:487][987]LogTexture: Display: Building textures: ForestTileset (AutoDXT, 160X256)
+[2018.09.16-16.55.13:537][987]LogEditorFactories: -- imported successfully
+[2018.09.16-16.55.14:701][991]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.55.15:688][ 42]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.16-16.55.16:799][104]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (Forest_C)
+[2018.09.16-16.55.16:899][104]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.55.17:605][145]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Forest_C)
+[2018.09.16-16.55.18:031][169]LogEditorViewport: Clicking on Actor (context menu): PaperFlipbookActor (Crowd9)
+[2018.09.16-16.55.18:074][169]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.55.18:125][170]LogEditorViewport: Clicking on Actor (context menu): PaperFlipbookActor (Crowd9)
+[2018.09.16-16.55.18:150][170]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.55.18:315][178]LogEditorViewport: Clicking on Actor (context menu): PaperFlipbookActor (Crowd9)
+[2018.09.16-16.55.18:340][178]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.55.18:351][178]LogEditorViewport: Clicking on Actor (context menu): PaperFlipbookActor (Crowd9)
+[2018.09.16-16.55.18:374][178]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.55.19:008][215]LogEditorViewport: Clicking on Actor (context menu): PaperFlipbookActor (Crowd14)
+[2018.09.16-16.55.19:053][215]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.55.19:111][217]LogEditorViewport: Clicking on Actor (context menu): PaperFlipbookActor (Crowd14)
+[2018.09.16-16.55.19:135][217]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.55.19:352][229]LogEditorViewport: Clicking on Actor (context menu): PaperFlipbookActor (Crowd14)
+[2018.09.16-16.55.19:376][229]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.55.19:440][232]LogEditorViewport: Clicking on Actor (context menu): PaperFlipbookActor (Crowd14)
+[2018.09.16-16.55.19:464][232]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.55.20:047][266]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (Forest_C)
+[2018.09.16-16.55.20:153][266]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.55.20:451][282]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (Forest_C)
+[2018.09.16-16.55.20:477][282]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.55.23:176][437]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.16-16.55.24:544][515]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (Forest_C)
+[2018.09.16-16.55.24:645][515]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.16-16.55.26:776][638]LogEditorViewport: Clicking on Actor (LMB): RainBP_C (RainBP)
+[2018.09.16-16.55.54:388][293]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.56.01:049][690]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Player/PlayerBP.PlayerBP
+[2018.09.16-16.56.37:925][721]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.16-16.56.37:958][721]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.56.37:958][721]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.16-16.56.38:056][721]LogPlayLevel: [PlayLevel] Compiling PlayerBP before play...
+[2018.09.16-16.56.38:376][721]LogPlayLevel: PlayLevel: Blueprint regeneration took 418 ms (1 blueprints)
+[2018.09.16-16.56.38:376][721]PIE: New page: PIE session: Sand_LvL (Sep 16, 2018, 8:56:38 AM)
+[2018.09.16-16.56.38:376][721]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sand_LvL
+[2018.09.16-16.56.38:385][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008719s)
+[2018.09.16-16.56.38:386][721]LogAIModule: Creating AISystem for world Sand_LvL
+[2018.09.16-16.56.38:386][721]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2018.09.16-16.56.38:386][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sand_LvL.Sand_LvL to /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL (0.009473s)
+[2018.09.16-16.56.38:447][721]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.16-16.56.38:513][721]LogInit: FAudioDevice initialized.
+[2018.09.16-16.56.38:519][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.56.38:597][721]LogLoad: Game class is 'CCGamemode_C'
+[2018.09.16-16.56.38:604][721]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL up for play (max tick rate 60) at 2018.09.16-12.56.38
+[2018.09.16-16.56.38:621][721]LogWorld: Bringing up level for play took: 0.022754
+[2018.09.16-16.56.38:638][721]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Sand_LvL 0.931
+[2018.09.16-16.56.38:638][721]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.56.49:917][382]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.56.53:968][625]LogBlueprintUserMessages: [ShopGUI_C_1] 2
+[2018.09.16-16.56.55:441][712]LogBlueprintUserMessages: [RainBP_2] Not Tree
+[2018.09.16-16.57.03:776][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.57.04:142][234]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.57.09:122][530]LogBlueprintUserMessages: [ShopGUI_C_2] 1
+[2018.09.16-16.57.15:760][928]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-57.437 Y=-543.000 Z=429.377] for [GolemBP_C]
+[2018.09.16-16.57.16:456][970]LogScript: Warning: Accessed None trying to read property CallFunc_AddComponent_ReturnValue
+	GolemBP_C /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL:PersistentLevel.GolemBP_C_0
+	Function /Game/Enemy/Gollem/GolemBP.GolemBP_C:ExecuteUbergraph_GolemBP:0683
+[2018.09.16-16.57.16:457][970]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_AddComponent_ReturnValue". Blueprint:  GolemBP Function:  Execute Ubergraph Golem BP Graph:  EventGraph Node:  Stop
+[2018.09.16-16.57.17:143][ 11]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.57.17:143][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.57.17:174][ 11]LogSlate: Window 'Coliseum Chaos Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.16-16.57.17:220][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-16.57.17:220][ 11]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.57.17:301][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.09.16-16.57.37:949][231]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Enemy/EnemyBaseBP.EnemyBaseBP
+[2018.09.16-16.57.43:080][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.16-16.57.51:250][959]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.16-16.57.51:287][959]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.57.51:287][959]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.16-16.57.51:373][959]LogPlayLevel: [PlayLevel] Compiling PlayerBP before play...
+[2018.09.16-16.57.51:688][959]LogPlayLevel: PlayLevel: Blueprint regeneration took 400 ms (1 blueprints)
+[2018.09.16-16.57.51:688][959]PIE: New page: PIE session: Sand_LvL (Sep 16, 2018, 8:57:51 AM)
+[2018.09.16-16.57.51:688][959]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sand_LvL
+[2018.09.16-16.57.51:698][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010053s)
+[2018.09.16-16.57.51:699][959]LogAIModule: Creating AISystem for world Sand_LvL
+[2018.09.16-16.57.51:699][959]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2018.09.16-16.57.51:699][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sand_LvL.Sand_LvL to /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL (0.010839s)
+[2018.09.16-16.57.51:754][959]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.16-16.57.51:821][959]LogInit: FAudioDevice initialized.
+[2018.09.16-16.57.51:829][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.57.51:901][959]LogLoad: Game class is 'CCGamemode_C'
+[2018.09.16-16.57.51:908][959]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL up for play (max tick rate 60) at 2018.09.16-12.57.51
+[2018.09.16-16.57.51:919][959]LogWorld: Bringing up level for play took: 0.017525
+[2018.09.16-16.57.51:937][959]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Sand_LvL 0.23
+[2018.09.16-16.57.51:937][959]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.57.52:464][977]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.57.52:464][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.57.52:498][977]LogSlate: Window 'Coliseum Chaos Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.16-16.57.52:545][977]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-16.57.52:545][977]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.57.52:608][978]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.09.16-16.57.59:355][347]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.16-16.57.59:391][347]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.57.59:391][347]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.16-16.57.59:464][347]LogPlayLevel: [PlayLevel] Compiling PlayerBP before play...
+[2018.09.16-16.57.59:812][347]LogPlayLevel: PlayLevel: Blueprint regeneration took 420 ms (1 blueprints)
+[2018.09.16-16.57.59:813][347]PIE: New page: PIE session: Sand_LvL (Sep 16, 2018, 8:57:59 AM)
+[2018.09.16-16.57.59:813][347]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sand_LvL
+[2018.09.16-16.57.59:823][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009563s)
+[2018.09.16-16.57.59:823][347]LogAIModule: Creating AISystem for world Sand_LvL
+[2018.09.16-16.57.59:824][347]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2018.09.16-16.57.59:824][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sand_LvL.Sand_LvL to /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL (0.010408s)
+[2018.09.16-16.57.59:881][347]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.16-16.57.59:947][347]LogInit: FAudioDevice initialized.
+[2018.09.16-16.57.59:953][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.58.00:029][347]LogLoad: Game class is 'CCGamemode_C'
+[2018.09.16-16.58.00:037][347]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL up for play (max tick rate 60) at 2018.09.16-12.58.00
+[2018.09.16-16.58.00:048][347]LogWorld: Bringing up level for play took: 0.017677
+[2018.09.16-16.58.00:064][347]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Sand_LvL 0.357
+[2018.09.16-16.58.00:064][347]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.58.00:510][359]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.58.00:510][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.58.00:543][359]LogSlate: Window 'Coliseum Chaos Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.16-16.58.00:587][359]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-16.58.00:587][359]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.58.00:656][360]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.09.16-16.58.05:053][623]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Engine/CCGameInstance.CCGameInstance
+[2018.09.16-16.58.10:150][896]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.16-16.58.10:190][896]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.58.10:190][896]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.16-16.58.10:245][896]LogPlayLevel: [PlayLevel] Compiling CCGameInstance before play...
+[2018.09.16-16.58.10:346][896]LogPlayLevel: PlayLevel: Blueprint regeneration took 156 ms (1 blueprints)
+[2018.09.16-16.58.10:346][896]PIE: New page: PIE session: Sand_LvL (Sep 16, 2018, 8:58:10 AM)
+[2018.09.16-16.58.10:350][896]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Sand_LvL
+[2018.09.16-16.58.10:360][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009673s)
+[2018.09.16-16.58.10:360][896]LogAIModule: Creating AISystem for world Sand_LvL
+[2018.09.16-16.58.10:360][896]LogPlayLevel: PIE: World Init took: (0.000623s)
+[2018.09.16-16.58.10:360][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Sand_LvL.Sand_LvL to /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL (0.010476s)
+[2018.09.16-16.58.10:419][896]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.16-16.58.10:485][896]LogInit: FAudioDevice initialized.
+[2018.09.16-16.58.10:492][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.58.10:568][896]LogLoad: Game class is 'CCGamemode_C'
+[2018.09.16-16.58.10:580][896]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Sand_LvL.Sand_LvL up for play (max tick rate 60) at 2018.09.16-12.58.10
+[2018.09.16-16.58.10:593][896]LogWorld: Bringing up level for play took: 0.023405
+[2018.09.16-16.58.10:614][896]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Sand_LvL 0.907
+[2018.09.16-16.58.10:615][896]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.58.18:049][337]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.58.18:049][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.16-16.58.18:079][337]LogSlate: Window 'Coliseum Chaos Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.16-16.58.18:122][337]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.16-16.58.18:122][337]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL' with GeneratedClass '/Game/Maps/Sand_LvL.Sand_LvL_C' with ClassGeneratedBy '/Game/Maps/Sand_LvL.Sand_LvL:PersistentLevel.Sand_LvL'
+[2018.09.16-16.58.18:179][338]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.09.16-16.58.31:995][150]LogUObjectArray: Warning: Other object in slot
+[2018.09.16-16.58.33:912][150]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.916 s
+[2018.09.16-16.58.33:912][150]LogOutputDevice: Error: === Handled ensure: ===
+[2018.09.16-16.58.33:912][150]LogOutputDevice: Error: 
+[2018.09.16-16.58.33:912][150]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2018.09.16-16.58.33:912][150]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.09.16-16.58.33:913][150]LogOutputDevice: Error: Stack: 
+[2018.09.16-16.58.33:913][150]LogOutputDevice: Error: [Callstack] 0x00007ffa96127136 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.16-16.58.33:913][150]LogOutputDevice: Error: [Callstack] 0x00007ffa95e60c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.16-16.58.33:913][150]LogOutputDevice: Error: [Callstack] 0x00007ffa95e7b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.16-16.58.33:913][150]LogOutputDevice: Error: [Callstack] 0x00007ffa94dc0c6b UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.16-16.58.33:913][150]LogOutputDevice: Error: [Callstack] 0x00007ffa94dd009e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.16-16.58.33:913][150]LogOutputDevice: Error: [Callstack] 0x00007ffa9003da3a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.09.16-16.58.33:913][150]LogOutputDevice: Error: [Callstack] 0x00007ffa8e51ec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.09.16-16.58.33:913][150]LogOutputDevice: Error: [Callstack] 0x00007ffa8e4df337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.09.16-16.58.33:913][150]LogOutputDevice: Error: [Callstack] 0x00007ffa9bc48204 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.16-16.58.33:913][150]LogOutputDevice: Error: [Callstack] 0x00007ffa9be8e933 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.16-16.58.33:913][150]LogOutputDevice: Error: [Callstack] 0x00007ffa9bca281a UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.16-16.58.33:913][150]LogOutputDevice: Error: [Callstack] 0x00007ffa9bc9e788 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.16-16.58.33:913][150]LogOutputDevice: Error: [Callstack] 0x00007ffa9bc9dd17 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.16-16.58.33:914][150]LogOutputDevice: Error: [Callstack] 0x00007ff6fc306aa7 UE4Editor.exe!UnknownFunction []
+[2018.09.16-16.58.33:914][150]LogOutputDevice: Error: [Callstack] 0x00007ff6fc315b3c UE4Editor.exe!UnknownFunction []
+[2018.09.16-16.58.33:914][150]LogOutputDevice: Error: [Callstack] 0x00007ff6fc315bba UE4Editor.exe!UnknownFunction []
+[2018.09.16-16.58.33:914][150]LogOutputDevice: Error: [Callstack] 0x00007ff6fc323dac UE4Editor.exe!UnknownFunction []
+[2018.09.16-16.58.33:914][150]LogOutputDevice: Error: [Callstack] 0x00007ff6fc325aaa UE4Editor.exe!UnknownFunction []
+[2018.09.16-16.58.33:914][150]LogOutputDevice: Error: [Callstack] 0x00007ffb10263034 KERNEL32.DLL!UnknownFunction []
+[2018.09.16-16.58.33:914][150]LogOutputDevice: Error: [Callstack] 0x00007ffb10471461 ntdll.dll!UnknownFunction []
+[2018.09.16-16.58.33:914][150]LogOutputDevice: Error: 
+[2018.09.16-16.58.33:924][150]LogStats:                SubmitErrorReport -  0.000 s
